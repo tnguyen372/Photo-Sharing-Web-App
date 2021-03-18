@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="292c22a7-4df3-4261-b995-4b230c0fd720" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/4220bdcff94e6082e79860955989568fd1c9bc765c5f7abaced71efd805fc0ff.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/4361f1974eab3809db0fd3998776e3566a9e3ca230cc65a010007fdb049715b4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/8e2e5631fc96c749e98c36bb310f5350c67d3f2a38c369a1f1a6b38a2c6b33e1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/bb6f9e714e4de558aaae2d9133f39545013ad696a5377159f5fc12ecb2dd940a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/e0c629d534f8265ea924618b44ade7a92ea0ff8642d89751d21ad99f5b181d9d.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/thumbnail-4220bdcff94e6082e79860955989568fd1c9bc765c5f7abaced71efd805fc0ff.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/thumbnail-4361f1974eab3809db0fd3998776e3566a9e3ca230cc65a010007fdb049715b4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/thumbnail-8e2e5631fc96c749e98c36bb310f5350c67d3f2a38c369a1f1a6b38a2c6b33e1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/thumbnail-bb6f9e714e4de558aaae2d9133f39545013ad696a5377159f5fc12ecb2dd940a.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/public/images/upload-images/thumbnail-e0c629d534f8265ea924618b44ade7a92ea0ff8642d89751d21ad99f5b181d9d.jpeg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lLrpQhcbFN3sUcC7MqI322gIxO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/public/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thomas\Documents\SFSU\Fall 2020\CSC 317 - Web Development\csc317-termproject-tnguyen372\application\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thomas\Documents\SFSU\Fall 2020\CSC 317 - Web Development\csc317-termproject-tnguyen372\application\public" />
+      <recent name="C:\Users\Thomas\Documents\SFSU\Fall 2020\CSC 317 - Web Development\csc317-termproject-tnguyen372\application\public\css" />
+      <recent name="C:\Users\Thomas\Documents\SFSU\Fall 2020\CSC 317 - Web Development\csc317-termproject-tnguyen372\application\public\stylesheets" />
+      <recent name="C:\Users\Thomas\Documents\SFSU\Fall 2020\CSC 317 - Web Development\csc317-termproject-tnguyen372\application\views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="292c22a7-4df3-4261-b995-4b230c0fd720" name="Default Changelist" comment="" />
+      <created>1607387394544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607387394544</updated>
+      <workItem from="1607387395681" duration="10477000" />
+      <workItem from="1607474413309" duration="74000" />
+      <workItem from="1607474564060" duration="23142000" />
+      <workItem from="1607854209888" duration="1203000" />
+      <workItem from="1607907060107" duration="99026000" />
+      <workItem from="1608253504236" duration="42892000" />
+      <workItem from="1608315779582" duration="19031000" />
+      <workItem from="1608599141407" duration="52270000" />
+      <workItem from="1608725579017" duration="3485000" />
+      <workItem from="1608790884529" duration="1010000" />
+      <workItem from="1609285386297" duration="2641000" />
+      <workItem from="1609542558767" duration="2000" />
+      <workItem from="1609554407917" duration="4000" />
+      <workItem from="1610850387163" duration="1258000" />
+      <workItem from="1611544499081" duration="611000" />
+      <workItem from="1614574326008" duration="1148000" />
+      <workItem from="1615935154912" duration="1193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

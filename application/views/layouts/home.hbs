@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../public/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/solid.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/regular.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/header.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/posts.css">
+    <script defer src="../public/js/front-end.js"></script>
+    <title>{{title}}</title>
+</head>
+<body>
+    <div id="container">
+        <div class="header-container">
+            {{> header}}
+            {{> nav-bar}}
+        </div>
+        <div id="main-content">
+            {{log this}}
+            {{#if (emptyObject messages)}}
+            {{> flashmessage}}
+            {{/if}}
+            {{{body}}}
+        </div>
+        {{> footer}}
+    </div>
+
+    {{#if logged}}
+        <script>
+            let element = document.getElementById("logout-button");
+            if (element) {
+                element.onclick = (even) => {
+                    fetch("/users/logout", {method: "POST"})
+                    .then((data) => {
+                        location.replace("/");
+                    })
+                }
+            }
+        </script>
+    {{/if}}
+</body>
+</html>

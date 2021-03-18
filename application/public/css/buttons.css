@@ -1,0 +1,38 @@
+/* Navigation bar buttons */
+a, .anchor-buttons {
+  text-decoration: none;
+  justify-content: center;
+
+}
+.anchor-buttons {
+  background-color: DodgerBlue;
+  display: flex;
+  border: 1px solid whitesmoke;
+  border-radius: 0.35em;
+  color: whitesmoke;
+  padding: 12px 16px;
+  font-size: 20px;
+  width: auto;
+  cursor: pointer;
+  align-items: center;
+  text-wrap: none;
+  margin-right: 5px;
+}
+
+/* Lighter background on mouse-over */
+.anchor-buttons:hover {
+  background-color: lightskyblue;
+}
+/* Form buttons */
+#register, #reset, #login, #post-img {
+  background-color: lightskyblue;
+  display: flex inline;
+  border: 1px solid whitesmoke;
+  border-radius: 0.35em;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+i {
+  margin-right: 5px;
+}

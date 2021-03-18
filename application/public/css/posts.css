@@ -1,0 +1,90 @@
+.post-container {
+    font-family: Verdana, sans-serif, 'Times New Roman';
+    font-size: 16px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    justify-items: center;
+}
+
+#photo-container {
+
+}
+#comment-container {
+    display: grid;
+    justify-self: stretch;
+    grid-area: comments;
+    grid-template-rows: auto 75px;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    grid-template-areas:
+      "comment-post-box"
+      "comment-messages";
+    max-height: 80vh;
+    width: inherit;
+    border: 1px solid cornsilk;
+    border-radius: 0.35rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+#comment-post-box {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: fit-content;
+    border: 2px solid cornsilk;
+    border-radius: 0.35rem;
+
+}
+#comment-box-text {
+    border: 2px solid cornsilk;
+    border-radius: 0.35rem;
+}
+
+#comment-messages {
+    grid-area: comment-messages;
+    overflow-y: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    scroll-behavior: smooth;
+    border: 1px solid cornsilk;
+    border-radius: 0.35rem;
+    margin: 10px 10px 10px 10px;
+}
+
+div[id^=message-] {
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2em;
+    padding: 0.25rem;
+    margin: 0.2rem;
+    font-size: 1rem;
+    border: 0.0625rem solid cornsilk;
+    border-radius: 0.25rem;
+    grid-template-areas:
+      "author date-posted"
+      "comments comments";
+}
+
+.author-text {
+    grid-area: author;
+    justify-self: start;
+    color: whitesmoke;
+}
+
+.comment-text {
+    grid-area: comments;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 75px;
+    min-height: 75px;
+    text-align: left;
+}
+
+.date-posted {
+    grid-area: date-posted;
+    justify-self: end;
+}

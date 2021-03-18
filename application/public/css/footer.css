@@ -1,0 +1,26 @@
+.footer-container {
+    display: flex;
+    color: whitesmoke;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Verdana, sans-serif, 'Times New Roman';
+    text-align: center;
+    justify-content: center;
+
+    background-color: DodgerBlue;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    margin-top: 15px;
+    height: 5vh;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email-link {
+    font-size: 14px;
+    justify-content: center;
+    margin-left: 10px;
+}

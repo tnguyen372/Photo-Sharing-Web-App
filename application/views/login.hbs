@@ -1,0 +1,23 @@
+<div class="form-container">
+    <header>
+        <h1>Login Page</h1>
+    </header>
+    <form class="form" method="POST" action="/users/login" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+        <br>
+        <label for="uname">Username: </label>
+        <input type="text" id="uname" name="username" required placeholder="Username"/>
+        <br>
+        <br>
+        <label for="pword">Password: </label>
+        <input type="password" id="pword" name="password" required placeholder="Password">
+        <br>
+        <br>
+        <button type="submit" id="login">Login</button>
+        <button type="reset" id="reset">Clear</button>
+        <p>Don't have an account?
+            <a href="/registration">Sign Up Here!</a>
+        </p>
+        </fieldset>
+    </form>
+</div>

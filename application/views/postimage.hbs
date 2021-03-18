@@ -1,0 +1,34 @@
+<div class="form-container">
+    <header>
+        <h1>Post An Image</h1>
+    </header>
+    <form class="form" method="POST" enctype="multipart/form-data" action="/posts/createPost">
+        <fieldset>
+        <br>
+        <label for="title">Enter a title: </label>
+        <input type="text" id="title" name="title" required placeholder="Title">
+        <br>
+        <br>
+        <label for="description">Enter a description: </label>
+        <input type="text" id="description" name="description" required placeholder="Description">
+        <br>
+        <br>
+        <label for="image">Upload an image to post: </label>
+        <input type="file" accept="image/*" id="image" name="upload-image" required>
+        <br>
+        <br>
+        <label for="acceptable use">Accept the
+            <a href="#">Acceptable Use Policy</a>:
+        </label>
+        <input type="checkbox" id="acceptable-use" name="acceptable_use" required>
+        <br>
+        <br>
+        <label for="post-img">Click the button below to post the image.</label>
+        <br>
+        <br>
+        <button type="submit" id="post-img" name="post image">Post Image</button>
+        <br>
+        </fieldset>
+    </form>
+</div>
+

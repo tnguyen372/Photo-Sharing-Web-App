@@ -1,0 +1,48 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-basis: content;
+    justify-content: center;
+    align-content: center;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+    border: 2px solid whitesmoke;
+    height: 15vh;
+    width: available;
+    overflow: hidden;
+}
+
+.banner {
+    flex-direction: row;
+    color: whitesmoke;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Verdana, sans-serif, 'Times New Roman';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    border-top: 2px solid whitesmoke;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items {
+    display: flex;
+}
+
+#search-text {
+    width: 40vh;
+    /*
+    flex-grow: 7;
+    order: 1;
+     */
+}
+

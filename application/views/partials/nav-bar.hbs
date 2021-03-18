@@ -1,0 +1,37 @@
+<!--Navigation bar section-->
+<nav class="nav-bar">
+    <ul class="nav-links">
+        <li class="nav-items">
+            <a href="/" class="anchor-buttons" id="home-button">
+                <i class="fas fa-home" id="home-page"></i>Home
+            </a>
+        </li>
+        <li class="nav-items search-bar">
+            <input id="search-text" name="search-text" type="text">
+            <i id="search-button" class="fas fa-search anchor-buttons"></i>
+        </li>
+        <li class="nav-items">
+            <a href="/registration" class="anchor-buttons" id="register-button">
+                <i class="fas fa-user-plus"></i>Register
+            </a>
+        </li>
+        {{#if logged}}
+            <li class="nav-items">
+                <a class="anchor-buttons" id="logout-button">
+                    <i class="fas fa-sign-out-alt"></i>Logout
+                </a>
+            </li>
+            <li class="nav-items">
+                <a href="/postimage" class="anchor-buttons" id="post-button">
+                    <i class="fas fa-plus-square"></i>Create Post
+                </a>
+            </li>
+        {{else}}
+            <li class="nav-items">
+                <a href="/login" class="anchor-buttons" id="login-button">
+                    <i class="fas fa-sign-in-alt"></i>Login
+                </a>
+            </li>
+        {{/if}}
+    </ul>
+</nav>
