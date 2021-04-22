@@ -1,4 +1,4 @@
-# Sunset Photo Sharing Website
+# Photo Sharing Website
 Full-stack web app that functions similarly to Imgur.com.<br>
 Demo video of app: https://www.youtube.com/watch?v=Yx6SXT3NKZw
 # Features
