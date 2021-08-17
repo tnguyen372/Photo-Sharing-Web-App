@@ -11,7 +11,7 @@ Users can:
 
 # Technologies Used
 1. Frontend: HTML, CSS, JavaScript, Handlebars.js
-2. Backend: JavaScript, Node.js, Express.js
+2. Backend: Node.js, Express.js
 3. Database: MySQL - Stores all website and user related account information, comments, and image post information
 
 # Build Instructions
