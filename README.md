@@ -1,4 +1,4 @@
-# Photo Sharing Web App
+# Sunset Photos Web App
 Full-stack web app that functions similarly to Imgur.com.<br>
 Demo video of app: https://www.youtube.com/watch?v=Yx6SXT3NKZw
 
@@ -18,5 +18,5 @@ Users can:
 Type 'npm install' in terminal
 
 # Run Instructions
-1. Type 'nodemon' or 'npm start' in terminal 
+1. Type 'npm start' in terminal 
 2. Copy and paste 'localhost:3000' into your browser of choice
